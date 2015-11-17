@@ -24,10 +24,10 @@ OR entering
 will run the script. The script contains four apt-get 
 commands:<br />
 <ul>
-<li>update</li>
-<li>upgrade</li>
-<li>autoremove</li>
-<li>autoclean</li>
+<li>... update</li>
+<li>... upgrade</li>
+<li>... autoremove</li>
+<li>... autoclean</li>
 </ul><br />
 <br />
 Which allows you to maintain your system in a more 
