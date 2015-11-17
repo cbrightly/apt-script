@@ -5,22 +5,22 @@ allowing the user to enter only one command instead of
 four.</p>
 <p>To prepare the script for usage first set the file as
 executable with either
-‘‘‘
+<code>
 chmod a+x apt.sh
-‘‘‘
+</code>
 or
-‘‘‘
+<code>
 chmod 755 apt.sh
-‘‘‘
+</code>
 </p>
 <p>After setting apt.sh as executable entering either
-‘‘‘
+<code>
 sh apt.sh
-‘‘‘
+</code>
 OR entering
-‘‘‘
+<code>
 ./apt.sh
-‘‘‘
+</code>
 will run the script. The script contains four apt-get 
 commands:<br />
 <ul>
