@@ -1,26 +1,26 @@
-apt.sh: apt maintainence via BASH scripting
+apt maintainence via BASH scripting
 ===================
 <p>apt.sh is designed to save time on CLI text entry by 
 allowing the user to enter only one command instead of 
 four.</p>
 <p>To prepare the script for usage first set the file as
 executable with either
-```
+‘‘‘
 chmod a+x apt.sh
-```
+‘‘‘
 or
-```
+‘‘‘
 chmod 755 apt.sh
-```
+‘‘‘
 </p>
 <p>After setting apt.sh as executable entering either
-```
+‘‘‘
 sh apt.sh
-```
+‘‘‘
 OR entering
-```
+‘‘‘
 ./apt.sh
-```
+‘‘‘
 will run the script. The script contains four apt-get 
 commands:<br />
 <ul>
