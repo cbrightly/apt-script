@@ -15,8 +15,7 @@ commands:<br />
 <li>... upgrade</li>
 <li>... autoremove</li>
 <li>... autoclean</li>
-</ul><br />
-<br />
+</ul>
 Which allows you to maintain your system in a more 
 streamlined fashion!</p>
 <p>
