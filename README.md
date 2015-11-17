@@ -4,23 +4,10 @@ apt maintainence via BASH scripting
 allowing the user to enter only one command instead of 
 four.</p>
 <p>To prepare the script for usage first set the file as
-executable with either
-<code>
-chmod a+x apt.sh
-</code>
-or
-<code>
-chmod 755 apt.sh
-</code>
-</p>
+executable with either <code>chmod a+x apt.sh</code>
+or<code>chmod 755 apt.sh</code></p>
 <p>After setting apt.sh as executable entering either
-<code>
-sh apt.sh
-</code>
-OR entering
-<code>
-./apt.sh
-</code>
+<code>sh apt.sh</code>OR entering<code>./apt.sh</code>
 will run the script. The script contains four apt-get 
 commands:<br />
 <ul>
@@ -36,6 +23,7 @@ streamlined fashion!</p>
 <p>
 <h2>Human readable change log:</h2>
 <ul>
+<li>2015.11.17: Fixed README.md syntax (a few times)</li>
 <li>2015.11.16: Initial commit</li>
 </ul>
 </p>
