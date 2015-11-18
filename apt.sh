@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 #
 # apt.sh: apt-get automation script
 # 	eases system maintainance with apt-get using a simple BASH script
