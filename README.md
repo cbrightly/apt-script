@@ -20,15 +20,14 @@ by entering only one command instead of four.**
 To prepare the script for usage first set the file as
 executable with either:
 
-	chmod a+x apt.sh  
-or:  
+	chmod a+x apt.sh
+or:
 	chmod 755 apt.sh
 
-After setting apt.sh as executable entering either  
-	sh apt.sh  
-OR entering  
-	./apt.sh  
-will run the script.
+After setting apt.sh as executable you can run the script by entering either:
+	sh apt.sh
+OR entering
+	./apt.sh
 
 ##What is this voodoo?!
 The script contains four apt-get commands:  
