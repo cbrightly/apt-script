@@ -11,7 +11,7 @@
 #   apt's built-in self-cleaning cycles
 
 # Generate list of installed packages (for backup reference)
-sudo dpkg -l | grep '^ii' | awk -F" " '{printf "%-40s %s\n", $2, $3}' >/root/installed_packages.txt
+sudo dpkg -l | grep '^ii' | awk -F" " '{printf "%-40s %s\n", $2, $3}' > ~/installed_packages.txt
 
 # Update repositories
 sudo apt-get update;
