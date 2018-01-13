@@ -16,9 +16,9 @@ sudo dpkg -l | grep '^ii' | awk -F" " '{printf "%-40s %s\n", $2, $3}' > ~/instal
 # Update repositories
 sudo apt-get update;
 #Perform Upgrade
-sudo apt-get upgrade;
+sudo apt-get upgrade -y;
 sudo apt-get dist-upgrade
 # Clean + purgeold/obsoleted packages
-sudo apt-get autoclean &>/dev/null;
+sudo apt-get autoclean;
 sudo apt-get autoremove;
 
