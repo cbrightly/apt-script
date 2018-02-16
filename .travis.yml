@@ -1,0 +1,8 @@
+{
+  "language": "bash",
+  "sudo": false,
+  "after-script": "chmod a+x apt.sh",
+  "group": "stable",
+  "dist": "stretch",
+  "os": "linux"
+}
